@@ -38,7 +38,7 @@ if valid_examples:
     for i, col in enumerate(cols):
         with col:
             image_path = os.path.join(DATASET_PATH, valid_examples[i])
-            st.image(image_path, use_column_width=True)
+            st.image(image_path, use_container_width=True)
 else:
     st.warning("Could not find example images. Please check the filenames in `app.py`.")
 
@@ -125,4 +125,4 @@ if feature_list is not None:
                 if i < len(recommended_images):
                     with col:
                         image_path = os.path.join(DATASET_PATH, recommended_images[i])
-                        st.image(image_path, caption=f"Recommendation {i+1}", use_column_width=True)
+                        st.image(image_path, caption=f"Recommendation {i+1}", use_container_width=True)
