@@ -2,6 +2,8 @@
 
 This project implements a content-based recommendation system that suggests similar fashion items using deep learning. By leveraging the powerful **VGG16** architecture for feature extraction and **cosine similarity** for matching, the system can analyze an outfit image and recommend the most visually similar items from a dataset.
 
+[Demo video](https://drive.google.com/file/d/1KssveIf1Vpn30Zw-WQg5ZUamWPiT7e_f/view?usp=sharing)
+
 -----
 
 ### Key Features
@@ -73,6 +75,15 @@ The recommendation process follows a simple yet effective pipeline:
 
 -----
 
+## 🖼 Screenshots
+
+![Input-Output](https://github.com/shinewithsachin/Fashion-Recommendation-System/blob/main/Screenshot%202025-08-25%20225136.png)
+![Input-Output](https://github.com/shinewithsachin/Fashion-Recommendation-System/blob/main/Screenshot%202025-08-25%20225200.png).
+![Input-Output](https://github.com/shinewithsachin/Fashion-Recommendation-System/blob/main/Screenshot%202025-08-25%20225307.png)
+![Input-Output](https://github.com/shinewithsachin/Fashion-Recommendation-System/blob/main/Screenshot%202025-08-25%20225441.png).
+
+-----
+
 ### Contributing
 
 Contributions are welcome\! If you have suggestions for improvements, please open an issue or submit a pull request.
@@ -81,4 +92,4 @@ Contributions are welcome\! If you have suggestions for improvements, please ope
 
 ### License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
